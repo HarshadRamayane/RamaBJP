@@ -1,0 +1,61 @@
+# ============================================================
+# RamaBJP .gitignore
+# ============================================================
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Database files and backups
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*_backup*
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local databases and backups
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env*
+!.env.example

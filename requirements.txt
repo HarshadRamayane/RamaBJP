@@ -1,0 +1,8 @@
+streamlit==1.65.0
+pandas==3.0.6
+numpy==2.5.4
+plotly==7.1.0
+pytest==8.3.4
+python-dotenv==1.0.1
+passlib==1.7.4
+bcrypt==4.2.1
