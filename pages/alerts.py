@@ -112,8 +112,8 @@ def render_alerts():
     with col_left:
         st.markdown('<div class="main-card">', unsafe_allow_html=True)
         st.markdown('<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;"><div style="font-size:15px; font-weight:600;">🔔 Alerts Feed</div><div style="font-size:11px; color:#0D6EFD; cursor:pointer;">Mark all as Read</div></div>', unsafe_allow_html=True)
+        tab1, tab2, tab3, tab4 = st.tabs(["All (21)", "Critical (3)", "Warning (6)", "Info (12)"])
         
-        tab1, tab2, tab3 = st.tabs(["All (21)", "Critical (3)", "Warning (6)", "Info (12)"])
         
         with tab1:
             table_html = """
