@@ -81,7 +81,7 @@ def render_rules_analysis():
         st.markdown('<div class="main-card">', unsafe_allow_html=True)
         st.markdown('<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;"><div style="font-size:15px; font-weight:600;">🛡️ Rule Management</div><div style="background:#0D6EFD; color:white; padding:4px 10px; border-radius:6px; font-size:11px; cursor:pointer;">+ New Rule</div></div>', unsafe_allow_html=True)
         
-        tab1, tab2 = st.tabs(["All Rules (12)", "Active (10)", "Inactive (2)"])
+        tab1, tab2, tab3 = st.tabs(["All Rules (12)", "Active (10)", "Inactive (2)"])
         
         with tab1:
             # Rule Table
