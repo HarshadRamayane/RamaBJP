@@ -45,7 +45,8 @@ elif page == "📥 Data Import & Ingestion":
     render_import()
 
 elif page == "⚙️ Rules & Analysis":
-    st.info("Rules & Analysis page coming soon...")
+    from pages.rules_analysis import render_rules_analysis
+    render_rules_analysis()
 
 elif page == "🔔 Alerts & Notifications":
     from config.theme import get_custom_css
@@ -68,7 +69,7 @@ elif page == "📈 Analytics & Trends":
 elif page == "📄 Reports":
     from pages.reports import render_reports
     render_reports()
-    
+
 elif page == "⚙️ Settings":
     st.info("Settings page coming soon...")
 
