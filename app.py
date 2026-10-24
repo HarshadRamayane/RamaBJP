@@ -66,8 +66,9 @@ elif page == "📈 Analytics & Trends":
     render_analytics()
 
 elif page == "📄 Reports":
-    st.info("Reports page coming soon...")
-
+    from pages.reports import render_reports
+    render_reports()
+    
 elif page == "⚙️ Settings":
     st.info("Settings page coming soon...")
 
